@@ -1,0 +1,16 @@
+{
+    "name": "typechain",
+    "version": "1.0.0",
+    "description": "Learning typescript by making a blockchain",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MikeHyungiLee/typechain.git"
+    },
+    "author": "Lee Hyungi",
+    "license": "ISC",
+    "scripts": {
+        "start": "node index.js",
+        "prestart": "tsc"
+    }
+}
