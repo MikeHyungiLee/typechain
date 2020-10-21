@@ -5,11 +5,13 @@
     // 어떤 버전의 JavaScript로 컴파일되고 싶은지 적는다. (target)
     "target": "ES2015",
     // Sourcemap 처리를 하고 싶은지 작성
-    "sourceMap": true
+    "sourceMap": true,
+    // 컴파일 후 out directory 설정
+    "outDir": "dist"
   },
   // 어떤 파일들이 컴파일 과정에 포함되는지 TypeScript에게 알려주도록 한다.
   // 컴파일 과정에서 포함할 파일들을 배열의 형태로 적는다.
-  "include": ["index.ts"],
+  "include": ["src/**/*"],
   // 어떤 node modules도 설치하지 않는다는 설정이다.
   "exclude": ["node_modules"]
 }
